@@ -17,33 +17,11 @@ atom-text-editor, :host {
   }
 
   .gutter {
-    background-color: @syntax-gutter-background-color;
-    color: @syntax-gutter-text-color;
-
     .line-number {
       &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
-        color: @syntax-gutter-text-color-selected;
-      }
-
-      &.cursor-line-no-selection {
-        color: @syntax-gutter-text-color-selected;
       }
     }
-  }
-
-  .gutter .line-number.folded,
-  .gutter .line-number:after,
-  .fold-marker:after {
-    color: @syntax-text-color;
-  }
-
-  .invisible {
-    color: @syntax-text-color;
-  }
-
-  .cursor {
-    color: @syntax-cursor-color;
   }
 
   .selection .region {
@@ -68,10 +46,6 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .keyword {
   color: @keyword;
-
-  &.control {
-    color: @keyword;
-  }
 
   &.control.directive {
     color: @preprocessor;
@@ -113,10 +87,6 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @number;
   }
 
-  &.other.color {
-    color: @constant;
-  }
-
   &.other.symbol {
     color: @string;
   }
@@ -132,10 +102,6 @@ atom-text-editor .search-results .marker.current-result .region,
   &.interpolation {
     color: darken(@red, 10%);
   }
-
-  &.parameter.function {
-    color: @variable;
-  }
 }
 
 .invalid.illegal {
@@ -145,15 +111,6 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .string {
   color: @string;
-
-
-  &.regexp {
-    color: @string;
-
-    .source.ruby.embedded {
-      color: @string;
-    }
-  }
 
   &.other.link {
     color: @red;
@@ -216,10 +173,6 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.function  {
     color: @function;
-
-    &.any-method {
-      color: @function;
-    }
   }
 }
 
