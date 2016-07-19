@@ -205,6 +205,31 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .meta {
+  &.preprocessor,
+  &.preprocessor * {
+    color: @preprocessor;
+
+    &.comment {
+      color: @comment;
+    }
+
+    &.entity.name.function,
+    &.constant {
+      color: @preprocessor;
+    }
+
+    &.punctuation.definition {
+      &.parameters,
+      &.string {
+        color: @preprocessor;
+      }
+    }
+
+    &.indent-guide {
+      color: @syntax-indent-guide-color;
+    }
+  }
+
   &.class {
     color: @type;
   }
