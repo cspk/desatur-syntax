@@ -7,3 +7,14 @@
 ## 0.9.0
 * Change operator color to main text color
 * Change C/C++ "sizeof" operator highlighting color to keyword color
+
+## 1.0.0
+* C/C++: color preprocessor all green
+* C++: don't color class and namespace names
+* C++: don't color parent class name in inheritance
+* C#: fix highlighting whithin class body
+* C#: color namespace keyword as type
+* C#: don't color namespace/class name in using declaration
+* CoffeeScript: don't color "->"
+* Color operators as keywords (light yellow)
+* Don't color support.class scope
