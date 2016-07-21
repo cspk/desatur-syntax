@@ -18,3 +18,7 @@
 * CoffeeScript: don't color "->"
 * Color operators as keywords (light yellow)
 * Don't color support.class scope
+
+## 1.1.0
+* Color variable.language scope as keyword
+* Color storage.type.function as type
