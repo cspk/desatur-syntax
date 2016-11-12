@@ -22,3 +22,7 @@
 ## 1.1.0
 * Color variable.language scope as keyword
 * Color storage.type.function as type
+
+## 1.2.0
+* Color operators as ordinary text
+* Color C/C++ sizeof operator as keyword
