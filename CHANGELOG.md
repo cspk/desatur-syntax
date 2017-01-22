@@ -26,3 +26,6 @@
 ## 1.2.0
 * Color operators as ordinary text
 * Color C/C++ sizeof operator as keyword
+
+## 1.2.1
+* Fix selectors deprecated in Atom v1.13.0
