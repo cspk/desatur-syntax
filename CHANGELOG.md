@@ -29,3 +29,6 @@
 
 ## 1.2.1
 * Fix selectors deprecated in Atom v1.13.0
+
+## 1.2.2
+* Fix broken sizeof keyword highlighting
