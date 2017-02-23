@@ -32,3 +32,6 @@
 
 ## 1.2.2
 * Fix broken sizeof keyword highlighting
+
+## 1.2.3
+* Fix sizeof keyword highlighting in preprocessor
