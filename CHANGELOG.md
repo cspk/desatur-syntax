@@ -35,3 +35,7 @@
 
 ## 1.2.3
 * Fix sizeof keyword highlighting in preprocessor
+
+## 1.3.0
+* Change bookmark icon color to light yellow
+* Don't highlight invalid/illegal syntax
